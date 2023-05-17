@@ -29,7 +29,6 @@ button:active {
 #reset-btn {
     font-size: 1rem;
     padding: 0.4rem 1rem !important;
-    margin-top: 0.7rem;
 }
 
 /* for images api */
@@ -177,6 +176,9 @@ p {
 
 .gb-search-wrapper {
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .suggestions {
@@ -187,7 +189,7 @@ p {
     width: 88%;
     background-color: #fff;
     position: absolute;
-    left: 1%;
+    top: 40px;
     font: 500 1rem "poppins";
     gap: 0.8rem;
     padding: 1rem;
