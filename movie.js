@@ -73,7 +73,7 @@ input.addEventListener('click', () => {
 // Add a click event listener to the search button
 searchBtn.addEventListener('click', async () => {
     const searchQuery = searchInput.value;
-    const url = `http://www.omdbapi.com/?apikey=${apiKey}&t=${searchQuery}`;
+    const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${searchQuery}`;
 
     // hide suggestion list when btn is clicked
     suggestionsList.style.display = "none";
