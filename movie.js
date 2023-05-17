@@ -23,7 +23,7 @@ input.addEventListener('input', async () => {
     suggestionsList.innerHTML = '';
 
     if (inputValue.length >= 3) {
-        const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=${inputValue}&type=movie`;
+        const url = `https://www.omdbapi.com/?apikey=${apiKey}&s=${inputValue}&type=movie`;
 
         try {
             const response = await fetch(url);
