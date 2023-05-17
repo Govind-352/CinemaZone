@@ -187,7 +187,7 @@ searchBtn.addEventListener('click', async () => {
         }
         if (data.Response !== 'True') {
             dataContainer.innerHTML = ''; // clear previous content
-            dataContainer.style.backgroundImage = "url('./Group 51.png')"
+            dataContainer.style.backgroundImage = "url('./images/Group 51.png')"
             successNoty.close();
             errorNoty.show();
             setTimeout(function () {
@@ -219,7 +219,7 @@ const resetBtn = document.querySelector('#reset-btn');
 
 resetBtn.addEventListener('click', () => {
     dataContainer.innerHTML = '';
-    dataContainer.style.backgroundImage = "url('/Group 59.png')";
+    dataContainer.style.backgroundImage = "url('./images/Group 59.png')";
 });
 
 
